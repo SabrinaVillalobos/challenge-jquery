@@ -1,13 +1,17 @@
 $(document).ready( function(){
+  printNews()
 
+  $("#arrow").remove();
   $("#burguermenu").remove();
 
   //La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
   renderHighlightedRecipes(recipesArray);
 
 });
-
-
+//función para agregar noticia
+function printNews () {
+  $(".newscontainer").append("NUEVAS RECETAS");
+};
 /*
 * Función que se encarga de pintar TODAS las recetas que tengan
 * marcado el atributo "highlighted" como TRUE
