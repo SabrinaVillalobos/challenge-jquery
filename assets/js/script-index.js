@@ -72,3 +72,8 @@ function renderActivity (recipe) {
     </span></span> <div class="bg-image" style="background-image: url('assets/`+ recipe.image +
     `'"></div></a>`);
 }
+
+//para poder ver el recipes.html en gh-pages haciendo click en explore all recipies
+ $(".btn-primary").click(function(){
+  $(this).attr("href", "recipe.html");
+  })
