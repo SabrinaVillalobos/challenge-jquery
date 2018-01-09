@@ -2,7 +2,6 @@ $(document).ready( function(){
   printNews()
 
   $("#arrow").remove();
-  $("#burguermenu").remove();
 
   //La variable "recipesArray" esta declarada en el archivo "data/recipes.js"
   renderHighlightedRecipes(recipesArray);
