@@ -17,3 +17,6 @@ claswap()
   })
 }
 
+ $(".js-back").click(function(){
+  $(".js-back").attr("href", "index.html");
+  })
